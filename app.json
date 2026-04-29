@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "PrimezFit Connect",
+    "slug": "primezfit-connect-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "package": "com.primezfit.connect"
+    }
+  }
+}

@@ -1,3 +1,5 @@
+import background from './assets/background.jpg'
+
 export default function PrimezFitConnectAndroid() {
   const connectWatch = async () => {
     if (!navigator.bluetooth) {
@@ -21,15 +23,12 @@ export default function PrimezFitConnectAndroid() {
     <div
       className="min-h-screen flex items-center justify-center p-6 bg-cover bg-center"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80')",
+        backgroundImage: `url(${background})`,
       }}
     >
       <div className="w-full max-w-md bg-black/80 backdrop-blur-xl rounded-3xl border border-white/10 shadow-2xl p-6 text-white">
         <div className="text-center mb-6">
-          <h1 className="text-4xl font-bold tracking-wide">
-            PrimezFit Connect
-          </h1>
+          <h1 className="text-4xl font-bold tracking-wide">PrimezFit Connect</h1>
           <p className="text-zinc-300 mt-2">
             Smartwatch syncing app for Android
           </p>
@@ -75,9 +74,7 @@ export default function PrimezFitConnectAndroid() {
 
         <div className="mt-6 bg-white/10 rounded-2xl p-4 text-center">
           <p className="text-zinc-300 text-sm">Connected Device</p>
-          <p className="text-lg font-semibold mt-1">
-            PrimezFit Watch Series
-          </p>
+          <p className="text-lg font-semibold mt-1">PrimezFit Watch Series</p>
         </div>
       </div>
     </div>
